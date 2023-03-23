@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(52, 51, 51);}
+
+.clockCont{
+    width: 48vw;
+    background: url(clokc.png) no-repeat;
+    height: 50vw;
+    position: relative;
+    background-size: contain;
+    background-position : center;
+    margin : auto;
+}
+.textCont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  padding-bottom : 4vh;
+  color : white;
+}
+.textCont h1{
+    padding: 3vh 0 0 0;
+    font-weight: bolder;
+}
+#hour, #min, #sec{
+    position: absolute;
+  transform-origin : bottom;
+}
+#hour{
+    width: 0.8vw;
+    height:22%;
+    background-color: #020202;
+    top: 27.3%;
+    border-radius: 3vh;
+    left: 49%;
+    opacity: 0.7;
+    /* display: none; */
+}
+#min{
+    width: 0.6vw;
+    height:28%;
+    background-color: #020202;
+    top: 21%;
+    border-radius: 3vh;
+    left: 49.25%;
+    opacity: 0.6;
+    /* display: none; */
+}
+#sec{
+    width: 0.4vw;
+    height:35%;
+    background-color: #020202;
+    top: 14%;
+    border-radius: 3vh;
+    left: 49.45%;
+    opacity: 0.6;
+}
+html, body {
+  height: 100%;
+  width: 100%;
+}
